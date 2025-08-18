@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Landing Page Saya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Ungu</title>
     <style>
+        /* Gaya Dasar */
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+            background-color: #3b0066;
         }
+
+        /* Gaya Kontainer Utama dengan Gradasi */
         .container {
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: inline-block;
+            text-align: center;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            width: 90%;
+            
+            /* Gradasi ungu muda */
+            background: linear-gradient(135deg, #a766ff, #5c20a8);
         }
+
         h1 {
-            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
         }
+
         p {
-            color: #666;
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 2em;
         }
+
         .cta-button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
             display: inline-block;
-            margin-top: 20px;
+            background-color: #3b0066;
+            color: #ffffff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
         }
+
+        .cta-button:hover {
+            background-color: #5c20a8;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Selamat Datang di Landing Page Saya!</h1>
-        <p>Ini adalah halaman statis yang dibuat menggunakan GitHub Pages.</p>
-        <a href="#" class="cta-button">Hubungi Kami</a>
+        <h1>Selamat Datang di Halaman Saya</h1>
+        <p>Halaman ini dirancang dengan perpaduan warna ungu gelap dan gradasi ungu muda yang elegan.</p>
+        <a href="#" class="cta-button">Pelajari Lebih Lanjut</a>
     </div>
 </body>
 </html>
