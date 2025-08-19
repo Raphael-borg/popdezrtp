@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super bônus + Prêmio grátis</title>
+    
     <style>
+        /* Mengatur font untuk seluruh halaman */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             color: #ffffff;
             background-color: #3b0066;
         }
+
         .container {
             text-align: center;
             padding: 40px;
@@ -23,19 +28,19 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             max-width: 600px;
             width: 90%;
-            
             background: linear-gradient(135deg, #a766ff, #5c20a8);
         }
 
-            .logo {
-            width: auto;
-            height: 500px;
+        .logo {
+            max-width: 150px; /* Ukuran maksimum logo 150px */
+            height: auto; /* Memastikan proporsi gambar tetap terjaga */
             margin-bottom: 25px;
         }
 
         h1 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
+            font-weight: 700;
         }
 
         p {
@@ -44,20 +49,11 @@
             margin-bottom: 2em;
         }
 
-        .cta-button {
-            display: inline-block;
-            background-color: #3b0066;
-            color: #ffffff;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1em;
-            transition: background-color 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background-color: #5c20a8;
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Tombol akan pindah baris jika layar sempit */
         }
 
         .cta-button {
@@ -79,15 +75,16 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://raw.githubusercontent.com/Raphael-borg/popdezrtp/main/photo_2025-08-18_21-09-00.jpg" alt="Logo Dez" class="logo">
-        <h1>Convide um amigo e ganhe R$ 50
-Super bônus + Prêmio grátis</h1>
+        <img src="https://raw.githubusercontent.com/Raphael-borg/popdeoztp/main/photo_2025-08-18_21-09-00.jpg" alt="Logo Dez" class="logo">
+        
+        <h1>Convide um amigo e ganhe R$ 50<br>Super bônus + Prêmio grátis</h1>
+        
         <p>Você também pode ter outros benefícios, temos muitos benefícios para os jogadores que são leais todos os dias</p>
         
         <div class="button-container">
-        <a href="https://x8c2tpa.com?ch=8191&fbPixelId=1380589956504297" class="cta-button">Reivindicar Agora</a>
-        <a href="https://x8c2tpa.com?ch=8191&fbPixelId=1380589956504297" class="cta-button">Registre-se Agora</a>
-    </div>
+            <a href="https://x8c2tpa.com?ch=8191&fbPixelId=1380589956504297" class="cta-button">Reivindicar Agora</a>
+            <a href="https://x8c2tpa.com?ch=8191&fbPixelId=1380589956504297" class="cta-button">Registre-se Agora</a>
+        </div>
     </div>
 </body>
 </html>
